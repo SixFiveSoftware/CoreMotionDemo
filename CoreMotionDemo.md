@@ -15,7 +15,7 @@ Create a function to set up the pedometer.
 Check if step counting is available., and if so, start pedometer updates.
 
     if CMPedometer.isStepCountingAvailable() {
-        self.pedometer.startPedometerUpdatesFromDate(self.midnight()) {
+        self.pedometer.startPedometerUpdatesFromDate(midnight) {
 
         }
     }
