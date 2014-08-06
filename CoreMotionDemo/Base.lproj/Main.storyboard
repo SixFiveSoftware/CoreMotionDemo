@@ -77,7 +77,7 @@
                         <outlet property="distanceLabel" destination="MZM-RK-PfX" id="wea-3g-Ouv"/>
                         <outlet property="lastUpdatedLabel" destination="N9l-Yb-X4L" id="ltk-bS-tH0"/>
                         <outlet property="rateLabel" destination="O4m-d4-KFe" id="2iW-DA-XuU"/>
-                        <outlet property="stepLabel" destination="BfZ-ub-ilI" id="2Lh-k2-e3d"/>
+                        <outlet property="stepCountLabel" destination="BfZ-ub-ilI" id="75X-5B-fYQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

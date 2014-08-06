@@ -19,7 +19,6 @@ Check if step counting is available., and if so, start pedometer updates.
 
         }
     }
-
 Calculated property to generate midnight value.
 
     var midnight: NSDate {

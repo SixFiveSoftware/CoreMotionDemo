@@ -9,8 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-                            
-    @IBOutlet weak var stepLabel: UILabel!
+    
+    @IBOutlet weak var stepCountLabel: UILabel!
     @IBOutlet weak var distanceLabel: UILabel!
     @IBOutlet weak var rateLabel: UILabel!
     @IBOutlet weak var lastUpdatedLabel: UILabel!
