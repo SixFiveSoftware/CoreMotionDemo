@@ -68,7 +68,7 @@ Update UI for distance.
 
 Run.
 
-Let's calculate our rate. Because the Pedometer returns cumulative data from our start date, we need to calculate the time diffs manually.  
+Let's calculate our rate. Because the Pedometer returns cumulative data from our start date, we need to calculate the time and distance diffs manually.  
 
 Create lastDistance and lastUpdatedDate property.
 
