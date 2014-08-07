@@ -395,6 +395,7 @@
 				3B6E6FCA1992AF4D002DA43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B6E6FCB1992AF4D002DA43D /* Build configuration list for PBXNativeTarget "CoreMotionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +404,7 @@
 				3B6E6FCD1992AF4D002DA43D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
