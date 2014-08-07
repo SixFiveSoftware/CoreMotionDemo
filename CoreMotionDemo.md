@@ -57,16 +57,10 @@ Be a good citizen and stop pedometer updates in viewWillDisappear.
 
 Run.
 
-Let's calculate distance. Declare a lastDistance property.
-
-    var lastDistance = 0.0
-
-In success block, get distance in meters.
+Let's calculate distance. In success block, get distance in meters.
 
     let meters = pedometerData.distance.doubleValue
     let distanceFormatter = NSLengthFormatter()
-    
-    self.lastDistance = meters
 
 Update UI for distance.
 
@@ -76,8 +70,9 @@ Run.
 
 Let's calculate our rate. Because the Pedometer returns cumulative data from our start date, we need to calculate the time diffs manually.  
 
-Create lastUpdatedDate property.
+Create lastDistance and lastUpdatedDate property.
 
+    var lastDistance = 0.0
     var lastUpdatedDate: NSDate?
 
 Calculate time and distance deltas. This goes between distanceFormatter and lastDistance.
@@ -87,6 +82,7 @@ Calculate time and distance deltas. This goes between distanceFormatter and last
     let rate = distanceDelta / timeDelta
 
     self.lastUpdatedDate = NSDate()
+    self.lastDistance = meters
 
 Update UI in dispatch_async closure.
 
