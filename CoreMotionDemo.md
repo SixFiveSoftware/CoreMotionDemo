@@ -73,7 +73,7 @@ Let's calculate our rate. Because the Pedometer returns cumulative data from our
 Create lastDistance and lastUpdatedDate property.
 
     var lastDistance = 0.0
-    var lastUpdatedDate: NSDate?
+    var lastUpdatedDate = NSDate()
 
 Calculate time and distance deltas. This goes between distanceFormatter and lastDistance.
 
@@ -92,7 +92,7 @@ Run.
 
 Add last updated date. First, a date formatter property.
 
-    let dateFormatter: NSDateFormatter()
+    let dateFormatter = NSDateFormatter()
 
 Initialize the dateFormatter in viewDidLoad.
 
